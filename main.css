@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  width: 50%;
+}
+
+.shot_percentage_hover {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+  background: rgb(190, 0, 0);
+  padding: 10px;
+}
+
+.main_wrapper {
+  width: 100%;
+  margin: auto;
+  border: 1px solid red;
+  background: black;
+}
+
+.court_wrapper {
+  margin: auto;
+  width: 400px;
+  position: relative;
+  border: 1px solid blue;
+}
+
+.spot {
+  position: absolute;
+  background: red;
+  margin-top: -7px;
+  margin-left: -7px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid white;
+  padding: 0px;
+}
+
+.spot:hover {
+  background: green;
+  transform: scale(1.2)
+}
+
+.spot_1 {
+  z-index: 10;
+  top: 57%;
+  left: 50%;
+}
+
+.spot_2 {
+  z-index: 10;
+  top: 45%;
+  left: 50%;
+}
