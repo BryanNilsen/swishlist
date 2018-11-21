@@ -1,0 +1,128 @@
+.main_wrapper {
+  width: 100%;
+  margin: auto;
+  /* border: 1px solid red; */
+  background: #111;
+}
+
+.court_wrapper {
+  margin: auto;
+  width: 380px;
+  position: relative;
+  /* border: 1px solid blue; */
+}
+
+.court_text {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid white;
+  padding: 5px 10px;
+  z-index: 10;
+  top: 6%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(17,17,17,0.5);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(17,17,17,0.5);
+  box-shadow: 0px 0px 10px 2px rgba(17,17,17,0.5);
+}
+
+.spot {
+  position: absolute;
+  background: rgba(255, 166, 1, 0.4);
+  margin-top: -7px;
+  margin-left: -7px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid white;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.spot:hover {
+  background:rgb(4, 204, 14, 1.0);
+  transform: scale(1.2);
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(17,17,17,0.5);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(17,17,17,0.5);
+  box-shadow: 0px 0px 10px 2px rgba(17,17,17,0.5);
+}
+
+/* free throw */
+
+.frthrw_1 {
+  z-index: 10;
+  top: 57%;
+  left: 50%;
+}
+
+/* three pointers */
+
+.thrpt_1 {
+  z-index: 10;
+  top: 44%;
+  left: 50%;
+}
+
+.thrpt_2 {
+  z-index: 10;
+  top: 52%;
+  left: 74%;
+}
+
+.thrpt_3 {
+  z-index: 10;
+  top: 52%;
+  left: 26%;
+}
+
+.thrpt_4 {
+  z-index: 10;
+  top: 72%;
+  left: 89%;
+}
+.thrpt_5 {
+  z-index: 10;
+  top: 72%;
+  left: 11%;
+}
+.thrpt_6 {
+  z-index: 10;
+  top: 92%;
+  left: 92%;
+}
+.thrpt_7 {
+  z-index: 10;
+  top: 92%;
+  left: 8%;
+}
+
+/* NBA three pointers */
+
+.nba_thrpt_1 {
+  z-index: 10;
+  top: 39%;
+  left: 50%;
+}
+
+.nba_thrpt_4 {
+  z-index: 10;
+  top: 68%;
+  left: 97%;
+}
+.nba_thrpt_5 {
+  z-index: 10;
+  top: 68%;
+  left: 3%;
+}
+
+.nba_thrpt_6 {
+  z-index: 10;
+  top: 92%;
+  left: 97%;
+}
+.nba_thrpt_7 {
+  z-index: 10;
+  top: 92%;
+  left: 3%;
+}

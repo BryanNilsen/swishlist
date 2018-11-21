@@ -5,14 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/shotLocation.css">
   <title>Document</title>
 </head>
 
 <body>
-  <div>
-    <h1>Swish - Basketball Shot Tracker</h1>
-  </div>
+  <nav>
+    <h1 class="logo"><span style="color:orange">swish</span><span style="color:white">list</span></h1>
+  </nav>
   <div>
     <ul>
       <li>log in</li>
@@ -29,10 +30,31 @@
   <div class="main_wrapper">
   <div class="court_wrapper">
     <!-- court image -->
-    <img src="/images/swishlist-court.svg">
-    <!-- begin shooting spots -->
-    <div class="spot spot_1"></div>
-    <div class="spot spot_2"></div>
+    <img src="/images/swishlist_court.svg">
+    <!-- text overlay -->
+    <div class="court_text"><p>select shot location</p>
+        <p>shot attempts<input type="number" min="1" max="100" value="1"></p>
+        <p>shots made<input type="number" min="1" max="100" value="1"></p>
+        <p><button type="submit">submit</button></p>
+    </div>
+    <!-- begin shot locations -->
+    <!-- free throw -->
+    <div class="spot frthrw_1"></div>
+    <!-- three pointers -->
+    <div class="spot thrpt_1"></div>
+    <div class="spot thrpt_2"></div>
+    <div class="spot thrpt_3"></div>
+    <div class="spot thrpt_4"></div>
+    <div class="spot thrpt_5"></div>
+    <div class="spot thrpt_6"></div>
+    <div class="spot thrpt_7"></div>
+    <!-- nba three pointers -->
+    <div class="spot nba_thrpt_1"></div>
+
+    <div class="spot nba_thrpt_4"></div>
+    <div class="spot nba_thrpt_5"></div>
+    <div class="spot nba_thrpt_6"></div>
+    <div class="spot nba_thrpt_7"></div>
   </div>
 </div>
 
