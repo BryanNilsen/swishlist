@@ -27,3 +27,8 @@ body {
   background: rgb(190, 0, 0);
   padding: 10px;
 }
+
+.underline {
+  text-decoration: underline;
+  font-weight: bold;
+}
